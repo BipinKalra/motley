@@ -62,3 +62,15 @@
     }
   }
 }
+
+@media all and (max-width: 1320px){
+  .card-stack{
+    transform: translateX(-30px) scaleX(0.95);
+  }
+}
+
+@media all and (max-width: 1225px){
+  .card-stack{
+    transform: translateX(-80px) scaleX(0.8);
+  }
+}
