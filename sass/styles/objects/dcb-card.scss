@@ -1,0 +1,14 @@
+.dcb-card{
+    .img-card{
+        height: 400px;
+    }
+
+    .divider{
+        width: 80%;
+        margin: 0 auto;
+        border-color: $white;
+        border-style: inset;
+        border-width: 5px;
+        z-index: 100;
+    }
+}
