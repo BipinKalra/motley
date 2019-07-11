@@ -9,6 +9,7 @@ File contains color configuration for below listed objects and utilities:-
   - Button Dashed
   - Tab Nav
   - Checkbox
+  - Image Ring
 
 - Utilities
   - Text Colors
@@ -140,3 +141,6 @@ $text-color-list: (
   "grey": $grey,
   "purple" : $purple
 );
+
+//Image Ring
+$img-ring-color: $orange;
