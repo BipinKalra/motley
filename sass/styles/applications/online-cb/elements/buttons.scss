@@ -23,7 +23,8 @@
   &.disabled,
   &:disabled {
     cursor: auto;
-    background: $faded-text;
+    background: $hover-grey;
+    color: #9e9e9e;
   }
 }
 
@@ -46,13 +47,8 @@
 
   &.disabled,
   &:disabled {
-    border-color: $faded-text !important;
-    color: $faded-text !important;
+    border-color: #9e9e9e !important;
+    color: #9e9e9e !important;
     cursor: auto;
-
-    &:hover {
-      background: $white !important;
-      color: $grey  !important;
-    } 
   }
 }
