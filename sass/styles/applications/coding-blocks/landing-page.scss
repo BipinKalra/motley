@@ -53,8 +53,20 @@
     &__image {
       height: 250px;
       width: 250px;
-      border-radius: 50%; 
+      border-radius: 50%;
       margin-right: 6rem;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    &__section {
+      padding: 4.5rem;
+    }
+  }
+
+  @media screen and (max-width: 567px){
+    &__section {
+      padding: 2.5rem;
     }
   }
 }
